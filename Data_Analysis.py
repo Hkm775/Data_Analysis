@@ -48,7 +48,6 @@ def analyze_excel_file(file_path):
     for emp in long_shift_employees:
         print(f"Employee: {emp}, Position: {df[df['Employee Name'] == emp].iloc[0]['Position ID']}")
 
-# Example usage:
 file_path = 'Assignment_Timecard.xlsx'
 analyze_excel_file(file_path)
 
